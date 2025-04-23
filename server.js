@@ -29,7 +29,8 @@ app.use(cors({
       'http://192.168.160.1:5174',
       'http://192.168.88.1:5174',
       'http://192.168.42.26:5174',
-      'https://dapper-treacle-9f05c5.netlify.app'
+      'https://dapper-treacle-9f05c5.netlify.app',
+      'https://resonant-meerkat-5d1418.netlify.app'
     ];
     
     if(allowedOrigins.indexOf(origin) !== -1 || !origin) {
